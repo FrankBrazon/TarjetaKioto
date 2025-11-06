@@ -42,15 +42,22 @@
     footer { position: absolute; bottom: 15px; font-size: 12px; color: var(--muted); }
 
     .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+
+    .role { font-weight: 700; } /* negrita */
+    .company {
+      margin-top: 0;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+    }
   </style>
 </head>
 <body>
   <img src="logo-kioto.svg" alt="Logo Tiendas Kioto" class="logo" />
 
   <h1>Ignacio Grau</h1>
-  <p>Director Comercial</p>
-  <H3>Tiendas Kioto</H3>
-  <p>PUFF C.A - CORPORACION FBK C.A</p>
+  <p class="role">Director Comercial</p>
+  <h3 style="margin-bottom:2px;">Tiendas Kioto</h3>
+  <p class="company">PUFF C.A - CORPORACIÓN FBK C.A</p>
 
   <div class="info">
     <ul class="contact-list">
@@ -82,3 +89,5 @@
   <footer>© Tiendas Kioto</footer>
 </body>
 </html>
+
+
